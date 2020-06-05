@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="WFH_AutomatedTests"
+      id="d1f9cb41-88e9-43f7-9f74-caf580d7418f"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="WFH_AutomatedTests"
+      id="d1f9cb41-88e9-43f7-9f74-caf580d7418f"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

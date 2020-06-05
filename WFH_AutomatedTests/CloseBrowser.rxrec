@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8619d7a6-9f76-4d84-9a91-4262d6b17ef2"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="WFH_AutomatedTests">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="48dd40b3-97f2-448e-9ed7-cb7765389e00">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9482a3ed-57ce-4ab3-8761-a1278affdbc9"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='iexplore']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="849c65e0-92c1-45cc-952f-1a94736f2931"
+	name="WFH_AutomatedTestsRepository"
+	relativepath="WFH_AutomatedTestsRepository.rxrep">
+		<codegen
+		classname="WFH_AutomatedTestsRepository"
+		namespace="WFH_AutomatedTests">
+		</codegen>
+		<rootfolder
+		id="978b1a9a-2507-4018-912f-ef61b7d58905"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
