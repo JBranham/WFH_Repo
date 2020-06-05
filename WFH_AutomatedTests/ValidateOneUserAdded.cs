@@ -79,8 +79,8 @@ namespace WFH_AutomatedTests
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='VIP count: 1') on item 'ApplicationUnderTest.Count'.", repo.ApplicationUnderTest.CountInfo, new RecordItemIndex(0));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.CountInfo, "InnerText", "VIP count: 1");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='VIP count: 9999') on item 'ApplicationUnderTest.Count'.", repo.ApplicationUnderTest.CountInfo, new RecordItemIndex(0));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.CountInfo, "InnerText", "VIP count: 9999");
             Delay.Milliseconds(100);
             
         }
